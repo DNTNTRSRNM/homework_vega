@@ -14,6 +14,7 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 
 add_executable(homework
   main.cpp
+  .gitignore
 )
 target_link_libraries(homework Qt${QT_VERSION_MAJOR}::Core)
 

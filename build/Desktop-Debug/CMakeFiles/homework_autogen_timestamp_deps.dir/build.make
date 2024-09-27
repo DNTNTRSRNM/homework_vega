@@ -66,8 +66,8 @@ include CMakeFiles/homework_autogen_timestamp_deps.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/homework_autogen_timestamp_deps.dir/progress.make
 
-CMakeFiles/homework_autogen_timestamp_deps: /usr/lib/qt5/bin/moc
 CMakeFiles/homework_autogen_timestamp_deps: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13
+CMakeFiles/homework_autogen_timestamp_deps: /usr/lib/qt5/bin/moc
 
 homework_autogen_timestamp_deps: CMakeFiles/homework_autogen_timestamp_deps
 homework_autogen_timestamp_deps: CMakeFiles/homework_autogen_timestamp_deps.dir/build.make
