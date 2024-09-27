@@ -14,14 +14,31 @@ find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
 
 add_executable(homework
   main.cpp
-  .gitignore
-  test.yaml
-  test.yaml
+  my_add.cpp
 )
+
+add_executable(tests
+  test_add.cpp
+)
+
 target_link_libraries(homework Qt${QT_VERSION_MAJOR}::Core)
 
 include(GNUInstallDirs)
 install(TARGETS homework
-    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR}
-    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+  LIBRARY DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
+
+include(FetchContent)
+FetchContent_Declare(
+  googletest
+  GIT_REPOSITORY https://github.com/google/googletest.git
+  GIT_TAG v1.15.2
+)
+FetchContent_MakeAvailable(googletest)
+
+enable_testing()
+target_link_libraries(tests ${googletest_LIBRARY})
+target_link_libraries(tests gtest_main)
+
+include(GoogleTest)
+gtest_discover_tests(tests)

@@ -39,12 +39,27 @@
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake",
 		"/usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake",
 		"/usr/share/cmake-3.28/Modules/CMakeParseArguments.cmake",
-		"/usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake"
+		"/usr/share/cmake-3.28/Modules/GNUInstallDirs.cmake",
+		"/usr/share/cmake-3.28/Modules/FetchContent.cmake",
+		"/usr/share/cmake-3.28/Modules/ExternalProject/shared_internal_commands.cmake",
+		"/usr/share/cmake-3.28/Modules/FindGit.cmake",
+		"/usr/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.28/Modules/FindPackageMessage.cmake",
+		"/usr/share/cmake-3.28/Modules/FetchContent/CMakeLists.cmake.in",
+		"/usr/share/cmake-3.28/Modules/GoogleTest.cmake"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/ranunculus/homework",
 	"DEP_FILE" : "/home/ranunculus/homework/build/Desktop-Debug/homework_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "homework_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"/home/ranunculus/homework/my_add.h",
+			"MU",
+			"EWIEGA46WW/moc_my_add.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "/home/ranunculus/homework/build/Desktop-Debug/homework_autogen/include",
 	"MOC_COMPILATION_FILE" : "/home/ranunculus/homework/build/Desktop-Debug/homework_autogen/mocs_compilation.cpp",
@@ -94,7 +109,8 @@
 	"SETTINGS_FILE" : "/home/ranunculus/homework/build/Desktop-Debug/CMakeFiles/homework_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "/home/ranunculus/homework/main.cpp", "MU", null ]
+		[ "/home/ranunculus/homework/main.cpp", "MU", null ],
+		[ "/home/ranunculus/homework/my_add.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

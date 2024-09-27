@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "homework_autogen/timestamp" "custom" "homework_autogen/deps"
   "/home/ranunculus/homework/build/Desktop-Debug/homework_autogen/mocs_compilation.cpp" "CMakeFiles/homework.dir/homework_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/homework.dir/homework_autogen/mocs_compilation.cpp.o.d"
   "/home/ranunculus/homework/main.cpp" "CMakeFiles/homework.dir/main.cpp.o" "gcc" "CMakeFiles/homework.dir/main.cpp.o.d"
+  "/home/ranunculus/homework/my_add.cpp" "CMakeFiles/homework.dir/my_add.cpp.o" "gcc" "CMakeFiles/homework.dir/my_add.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -1,1 +1,1 @@
-/usr/bin/clang++-18 -DQT_QML_DEBUG -g CMakeFiles/homework.dir/homework_autogen/mocs_compilation.cpp.o CMakeFiles/homework.dir/main.cpp.o -o homework  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 
+/usr/bin/clang++-18 -DQT_QML_DEBUG -g CMakeFiles/homework.dir/homework_autogen/mocs_compilation.cpp.o CMakeFiles/homework.dir/main.cpp.o CMakeFiles/homework.dir/my_add.cpp.o -o homework  /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.13 

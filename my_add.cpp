@@ -1,4 +1,4 @@
-#pragma once
+#include <iostream>
 void Mul_matrices(int A[5][5], int B[5][5], int C[5][5]) {
     for (int i = 0; i < 5; i++) {
         for (int j = 0; j < 5; j++) {

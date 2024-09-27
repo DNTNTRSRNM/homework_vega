@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/homework.dir/homework_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/homework.dir/main.cpp.o"
   "CMakeFiles/homework.dir/main.cpp.o.d"
+  "CMakeFiles/homework.dir/my_add.cpp.o"
+  "CMakeFiles/homework.dir/my_add.cpp.o.d"
   "homework"
   "homework.pdb"
   "homework_autogen/mocs_compilation.cpp"
