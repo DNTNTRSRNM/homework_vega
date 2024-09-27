@@ -1,0 +1,9 @@
+/home/ranunculus/homework/build/Desktop-Debug/CMakeFiles/homework.dir
+/home/ranunculus/homework/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/ranunculus/homework/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/ranunculus/homework/build/Desktop-Debug/CMakeFiles/list_install_components.dir
+/home/ranunculus/homework/build/Desktop-Debug/CMakeFiles/install.dir
+/home/ranunculus/homework/build/Desktop-Debug/CMakeFiles/install/local.dir
+/home/ranunculus/homework/build/Desktop-Debug/CMakeFiles/install/strip.dir
+/home/ranunculus/homework/build/Desktop-Debug/CMakeFiles/homework_autogen_timestamp_deps.dir
+/home/ranunculus/homework/build/Desktop-Debug/CMakeFiles/homework_autogen.dir

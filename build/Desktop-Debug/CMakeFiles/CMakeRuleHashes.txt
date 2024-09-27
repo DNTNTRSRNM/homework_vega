@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+24cbfb24396737c2187603bb7f1bbf12 CMakeFiles/homework_autogen
+24cbfb24396737c2187603bb7f1bbf12 CMakeFiles/homework_autogen_timestamp_deps
+d8a4a5aa80e78ed09eafb9109324d77f homework_autogen/timestamp
