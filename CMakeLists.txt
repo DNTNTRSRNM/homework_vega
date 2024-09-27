@@ -16,6 +16,7 @@ add_executable(homework
   main.cpp
   .gitignore
   test.yaml
+  test.yaml
 )
 target_link_libraries(homework Qt${QT_VERSION_MAJOR}::Core)
 
