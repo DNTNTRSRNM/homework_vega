@@ -1,0 +1,10 @@
+name: build and tun
+on: [push]
+jobs:
+    build and run:
+        runs-on: ubuntu-latest
+        stages:
+            -uses:
+
+
+
