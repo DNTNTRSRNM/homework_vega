@@ -9,7 +9,6 @@ jobs:
       - run: sudo apt-get install -y cmake qt6-base-dev
       - run: sudo apt-get update && sudo apt-get install -y cmake
       - run: mkdir -p build && cmake -B build -S . && cmake --build build --target all
-
       - uses: actions/upload-artifact@v4
         with:
           name: binaries
@@ -33,7 +32,8 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: binaries
-      - run: chmod +x main && ./main
+      - run: chmod +x build/main && ./build/main
+
 
 
 
