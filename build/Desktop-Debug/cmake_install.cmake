@@ -2,7 +2,7 @@
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "/home/ranunculus/homework/build/Desktop-Debug/build")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -40,6 +40,62 @@ endif()
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/llvm-objdump-18")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}/home/ranunculus/homework/build/Desktop-Debug/build/main/homework" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/ranunculus/homework/build/Desktop-Debug/build/main/homework")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}/home/ranunculus/homework/build/Desktop-Debug/build/main/homework"
+         RPATH "")
+  endif()
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/home/ranunculus/homework/build/Desktop-Debug/build/main/homework")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "/home/ranunculus/homework/build/Desktop-Debug/build/main" TYPE EXECUTABLE FILES "/home/ranunculus/homework/build/Desktop-Debug/homework")
+  if(EXISTS "$ENV{DESTDIR}/home/ranunculus/homework/build/Desktop-Debug/build/main/homework" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/ranunculus/homework/build/Desktop-Debug/build/main/homework")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/llvm-strip-18" "$ENV{DESTDIR}/home/ranunculus/homework/build/Desktop-Debug/build/main/homework")
+    endif()
+  endif()
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/ranunculus/homework/build/Desktop-Debug/CMakeFiles/homework.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}/home/ranunculus/homework/build/Desktop-Debug/build/tests/tests" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/ranunculus/homework/build/Desktop-Debug/build/tests/tests")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}/home/ranunculus/homework/build/Desktop-Debug/build/tests/tests"
+         RPATH "")
+  endif()
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/home/ranunculus/homework/build/Desktop-Debug/build/tests/tests")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  file(INSTALL DESTINATION "/home/ranunculus/homework/build/Desktop-Debug/build/tests" TYPE EXECUTABLE FILES "/home/ranunculus/homework/build/Desktop-Debug/tests")
+  if(EXISTS "$ENV{DESTDIR}/home/ranunculus/homework/build/Desktop-Debug/build/tests/tests" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}/home/ranunculus/homework/build/Desktop-Debug/build/tests/tests")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/usr/bin/llvm-strip-18" "$ENV{DESTDIR}/home/ranunculus/homework/build/Desktop-Debug/build/tests/tests")
+    endif()
+  endif()
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/ranunculus/homework/build/Desktop-Debug/CMakeFiles/tests.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

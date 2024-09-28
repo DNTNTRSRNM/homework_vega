@@ -8,6 +8,7 @@ set(CMAKE_AUTORCC ON)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_INSTALL_PREFIX ${CMAKE_CURRENT_BINARY_DIR}/build)
 
 find_package(QT NAMES Qt6 Qt5 REQUIRED COMPONENTS Core)
 find_package(Qt${QT_VERSION_MAJOR} REQUIRED COMPONENTS Core)
@@ -20,6 +21,9 @@ add_executable(homework
 add_executable(tests test_add.cpp my_add.cpp)
 
 target_link_libraries(homework Qt${QT_VERSION_MAJOR}::Core)
+
+install(TARGETS homework DESTINATION ${CMAKE_INSTALL_PREFIX}/main)
+install(TARGETS tests DESTINATION ${CMAKE_INSTALL_PREFIX}/tests)
 
 include(GNUInstallDirs)
 install(TARGETS homework
