@@ -32,7 +32,7 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: binaries
-      - run: | cd build chmod +x main && ./main
+      - run: chmod +x main && ./main
 
 
 
