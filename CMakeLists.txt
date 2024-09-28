@@ -17,9 +17,7 @@ add_executable(homework
   my_add.cpp
 )
 
-add_executable(tests
-  test_add.cpp
-)
+add_executable(tests test_add.cpp my_add.cpp)
 
 target_link_libraries(homework Qt${QT_VERSION_MAJOR}::Core)
 

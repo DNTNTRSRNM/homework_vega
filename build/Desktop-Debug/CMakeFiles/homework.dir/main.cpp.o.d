@@ -283,6 +283,7 @@ CMakeFiles/homework.dir/main.cpp.o: /home/ranunculus/homework/main.cpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/parse_numbers.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h \
+  /home/ranunculus/homework/my_add.h \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/iostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ostream \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/ios \
@@ -297,6 +298,4 @@ CMakeFiles/homework.dir/main.cpp.o: /home/ranunculus/homework/main.cpp \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/basic_ios.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/ostream.tcc \
   /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/istream \
-  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/istream.tcc \
-  /home/ranunculus/homework/my_add.h \
-  /home/ranunculus/homework/my_add.cpp
+  /usr/bin/../lib/gcc/x86_64-linux-gnu/13/../../../../include/c++/13/bits/istream.tcc
